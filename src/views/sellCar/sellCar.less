@@ -1,0 +1,153 @@
+img {
+    vertical-align: top;
+}
+
+.content {
+    background-color: #030C28;
+    padding-bottom: 50px;
+
+    border-bottom: 18px solid rgba(9, 29, 78, 1);
+
+
+    div.process {
+        position: relative;
+        top: -70px;
+        width: 678px;
+        height: 396px;
+        background: url('./images/process.png') no-repeat center;
+        box-shadow: 0px 6px 21px 0px rgba(134, 134, 134, 0.36);
+        opacity: 0.71;
+        border-radius: 8px;
+        margin: 0 auto;
+
+        h3 {
+            margin: 0 auto;
+            width: 470px;
+            height: 35px;
+            font-size: 36px;
+            font-weight: normal;
+            color: rgba(48, 72, 132, 1);
+            line-height: 24px;
+
+            span {
+                display: inline-block;
+
+            }
+        }
+    }
+
+    form {
+        margin: 0 auto;
+        width: 680px;
+        box-shadow: 0px 0px 13px 0px rgba(207, 207, 207, 0.26);
+
+
+        input {
+            color: rgba(224, 224, 224, 1);
+            padding: 0 30px;
+            height: 88px;
+            width: 380px;
+            background: #2E374D;
+
+            &:focus {
+                background: #fff;
+                color: black;
+            }
+        }
+
+
+        button {
+            border: none;
+            width: 236px;
+            height: 88px;
+            background: linear-gradient(-88deg, rgba(47, 71, 130, 1) 0%, rgba(107, 140, 206, 1) 67%, rgba(162, 182, 223, 1) 99%);
+        }
+    }
+
+    .btn {
+        font-size: 36px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        line-height: 24px;
+        margin: 20px auto 0;
+        width: 666px;
+        height: 92px;
+        text-align: center;
+        line-height: 92px;
+        background: linear-gradient(268deg, rgba(47, 71, 130, 1) 0%, rgba(107, 140, 206, 1) 67%, rgba(162, 182, 223, 1) 99%);
+    }
+}
+
+.question {
+    padding-top: 70px;
+    background-color: #030C28;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+    h2 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    p {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(232, 232, 232, 1);
+
+    }
+
+    hr {
+        border: none;
+        margin: 0 auto;
+        width: 74px;
+        height: 5px;
+        background: rgba(139, 162, 216, 1);
+    }
+}
+
+.control {
+    background-color: #030C28;
+    color: rgba(255, 255, 255, 1);
+    padding: 43px 0 10px 27px;
+
+    .issue-title {
+        height: 58px;
+        font-size: 30px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+
+        .span-icon {
+            display: inline-block;
+            width: 78px;
+            height: 58px;
+            border-radius: 29px;
+            background-image: url(./images/open.png);
+            vertical-align: middle;
+            margin-right: 15px;
+
+            &.active {
+                background-image: url(./images/close.png);
+                margin-right: 18px;
+            }
+        }
+    }
+
+    >div {
+        border-left: 3px solid rgba(234, 240, 255, 1);
+        margin-left: 35px;
+        padding: 40px 96px 40px 40px;
+
+        >p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 1);
+            line-height: 36px;
+        }
+
+        &.line {
+            height: 24px;
+            padding: 0;
+        }
+    }
+}
